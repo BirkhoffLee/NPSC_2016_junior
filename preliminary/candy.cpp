@@ -1,23 +1,23 @@
 #include <iostream>
 
 int main () {
-	int number;
+    int number;
 
-	std::cin >> number;
+    std::cin >> number;
 
-	for (int i = 0; i < number; i ++) {
-		int N, M, K, candies;
+    for (int i = 0; i < number; i ++) {
+        int N, M, K, candies;
 
-		std::cin >> N >> M >> K;
+        std::cin >> N >> M >> K;
 
-		candies = (M - (M % N)) / N;
+        candies = (M - (M % N)) / N;
 
-		if (M % N >= K) {
-			candies ++;
-		}
+        if (M % N >= K) {
+            candies ++;
+        }
 
-		std::cout << candies << std::endl;
-	}
+        std::cout << candies << std::endl;
+    }
 
-	return 0;
+    return 0;
 }
