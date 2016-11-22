@@ -2,4 +2,5 @@
 My solutions of NPSC 2016 competition for junior high school students.
 
 # Preliminary
-[donut.cpp](preliminary/donut.cpp) was resulted in Time Limit Exceeded by Kattis.
+[donut.cpp](preliminary/donut.cpp) was resulted in **Time Limit Exceeded** by Kattis.  
+All other solutions were marked as **Accepted** by Kattis.
